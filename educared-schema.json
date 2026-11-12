@@ -1,0 +1,110 @@
+{
+  "repository": "EDUCARED",
+  "context": "Instituto Universitario Nuevos Horizontes, Montería, Córdoba, Colombia (contexto ficticio)",
+  "standards": [
+    "Dublin Core",
+    "IEEE LOM"
+  ],
+  "fields": [
+    {
+      "field": "identifier",
+      "dc": "Identifier",
+      "lom": "General.Identifier",
+      "required": true
+    },
+    {
+      "field": "title",
+      "dc": "Title",
+      "lom": "General.Title",
+      "required": true
+    },
+    {
+      "field": "description",
+      "dc": "Description",
+      "lom": "General.Description",
+      "required": true
+    },
+    {
+      "field": "subject_keywords",
+      "dc": "Subject",
+      "lom": "General.Keyword",
+      "required": true
+    },
+    {
+      "field": "creator",
+      "dc": "Creator",
+      "lom": "Lifecycle.Contribute",
+      "required": true
+    },
+    {
+      "field": "date",
+      "dc": "Date",
+      "lom": "Lifecycle.Contribute.Date",
+      "required": true
+    },
+    {
+      "field": "language",
+      "dc": "Language",
+      "lom": "General.Language",
+      "required": true
+    },
+    {
+      "field": "resource_type",
+      "dc": "Type",
+      "lom": "Educational.LearningResourceType",
+      "required": true
+    },
+    {
+      "field": "format",
+      "dc": "Format",
+      "lom": "Technical.Format",
+      "required": true
+    },
+    {
+      "field": "audience_level",
+      "dc": "Audience",
+      "lom": "Educational.Context",
+      "required": false
+    },
+    {
+      "field": "duration",
+      "dc": null,
+      "lom": "Educational.TypicalLearningTime",
+      "required": false
+    },
+    {
+      "field": "rights",
+      "dc": "Rights",
+      "lom": "Rights.Description",
+      "required": true
+    },
+    {
+      "field": "accessibility_notes",
+      "dc": null,
+      "lom": "Accessibility-related description",
+      "required": false
+    }
+  ],
+  "collections": [
+    "Pedagogía y didáctica",
+    "Competencias digitales",
+    "Educación inclusiva",
+    "Ciencias y pensamiento crítico",
+    "Ciencias sociales y humanidades",
+    "Aprendizaje autónomo"
+  ],
+  "roles": [
+    "Administrador",
+    "Docente",
+    "Evaluador",
+    "Estudiante"
+  ],
+  "workflow": [
+    "Carga",
+    "Revisión",
+    "Aprobación",
+    "Publicación",
+    "Consulta"
+  ],
+  "scope_note": "Prototipo estático demostrativo; no incorpora backend ni autenticación."
+}
